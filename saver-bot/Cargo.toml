@@ -1,0 +1,16 @@
+[package]
+name = "saver-bot"
+version = "0.1.0"
+authors = ["Protowalker <jacksonedwards6@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = "0.9.0-rc.1"
+tokio = {version = "0.2", features = ["full"] }
+dotenv = "0.15.0"
+anyhow = "1.0.32"
+chrono = "0.4"
+rusqlite = "0.24.0"
+lazy_static = "1.4.0"
